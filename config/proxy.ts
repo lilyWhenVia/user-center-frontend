@@ -1,4 +1,3 @@
-import {DOMAIN_NAME} from "@/constants";
 
 /**
  * 在生产环境 代理是无法生效的，所以这里没有生产环境的配置
@@ -13,7 +12,7 @@ export default {
     // localhost:8000/api/** -> https://preview.pro.ant.design/api/**
     '/user-center': {
       // 要代理的地址
-      target: `http://${DOMAIN_NAME}:8080`,
+      target: `http://lily-yaya.xyz:8080`,
       // 配置了这个可以从 http 代理到 https
       // 依赖 origin 的功能可能需要这个，比如 cookie
       changeOrigin: true,

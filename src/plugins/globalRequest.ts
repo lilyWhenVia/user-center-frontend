@@ -6,13 +6,13 @@ import {extend} from 'umi-request';
 import {message} from "antd";
 import {history} from "@@/core/history";
 import {stringify} from "querystring";
-import {DOMAIN_NAME, SUCCESS_CODE, UN_LOGIN_CODE} from "@/constants";
+import { SUCCESS_CODE, UN_LOGIN_CODE} from "@/constants";
 /**
  * 配置request请求时的默认参数
  */
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
-  prefix: process.env.NODE_ENV === 'production' ?DOMAIN_NAME: undefined
+  prefix: process.env.NODE_ENV === 'production' ?"lily-yaya.xyz": undefined
   // requestType: 'form',
 });
 
