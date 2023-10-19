@@ -11,3 +11,7 @@ export const UN_LOGIN_CODE = "4011";
 export const ACCOUNT_NOT_FOUND_CODE = "3000";
 export const WRONG_PARAM_ERR_CODE = "3";
 export const USER_LONGING_STATE = "user";
+// export const IP_ADD = "121.40.252.15";
+export const DOMAIN_NAME = "lily-yaya.xyz";
+
+
