@@ -12,7 +12,7 @@ import { SUCCESS_CODE, UN_LOGIN_CODE} from "@/constants";
  */
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
-  prefix: process.env.NODE_ENV === 'production' ?"lily-yaya.xyz": undefined
+  prefix: process.env.NODE_ENV === 'production' ?"127.0.0.1": undefined
   // requestType: 'form',
 });
 
